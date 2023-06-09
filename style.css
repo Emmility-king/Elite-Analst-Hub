@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: Noto Sans;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  list-style: none;
+  text-decoration: none;
+}
+/* .background-image{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   
+    
+}
+.background-image::before{
+    
+} */
+body {
+  /* box-sizing: border-box;content: ''; */
+  /* background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("Elite\ Analytics\ Hub\ \(1\).png"); */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat; */
+  /* background-position: absolute; */
+  /* top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+  /* opacity: 0.35; */
+}
+nav {
+  /* position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10; */
+  width: 100%;
+  height: 90px;
+  background-color: white;
+  letter-spacing: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 620px;
+}
+.logo {
+  /* margin-right: 10px;
+    padding-left: 20px;
+    width: 100%;
+    height:10px;
+    justify-content: center; */
+}
+.nav-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.nav-list ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav-list ul li {
+  margin-right: 50px;
+}
+.nav-list ul li a {
+  font-size: 16px;
+  color: black;
+}
+.courses {
+  font-size: 14px;
+  color: white;
+  background-color: #263b9c;
+  padding: 16px 40px;
+  border-radius: 30px;
+}
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.28), rgba(0, 0, 0, 0.28)),
+    url("./Images/team-100.jpg"); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.tag h3 {
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+}
+.tag h1 {
+  font-size: 44px;
+  font-weight: 700;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.tag button {
+  width: 165px;
+  height: 55px;
+  border-radius: 30px;
+  border: none;
+  margin-top: 50px;
+  background-color: #263b9c;
+}
+.tag button a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.quote {
+  height: 150px;
+  text-align: center;
+  display: grid;
+  place-items: center;
+  background-color: white !important;
+  letter-spacing: 1.5px;
+}
+.quote div h6 {
+  color: black;
+  font-size: 23px;
+  font-weight: 500;
+}
+.quote div p {
+  color: black;
+  font-size: 18px;
+  font-weight: 300;
+}
+.general-program {
+  background-color: #339eeb18;
+  height: 190vh;
+}
+
+.general-program h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 34px;
+  font-weight: 700;
+  color: #263b9c;
+  text-align: center;
+  padding: 40px 0px 10px;
+}
+.all-programs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+  padding-top: 40px;
+  /* max-width: 80%; */
+}
+.program-a {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.program {
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.052);
+  border-radius: 15px;
+  text-align: center;
+  width: 460px;
+  height: 490px;
+}
+.program img {
+  margin-top: 30px;
+}
+.program h5 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+}
+.program p {
+  width: 320px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #4e5652;
+  letter-spacing: 1px;
+}
+.button {
+  padding: 15px 30px;
+  border-radius: 30px;
+  background-color: #263b9c;
+  color: white;
+  letter-spacing: 1px;
+  margin: 5px 0px 30px;
+}
+.bio {
+  height: 70vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  /* background-image: url(./Images/abstract-paint-splash.jpg); */
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
+ .bio-text {
+  letter-spacing: 1.1px;
+  color: black;
+} 
+.bio-text h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 54px;
+  font-weight: bold;
+  margin: 0px 0px 15px;
+}
+.bio-line{
+  width: 100px;
+  height: 10px;
+  background-color: #263b9c;
+  border-radius: 10px;
+  margin: 0px 0px 20px;
+}
+.bio-text p{
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.myslides{
+  display: none;
+}
+img{
+  vertical-align: middle;
+}
+.slideshow-contain{
+  max-width: 70%;
+  margin: auto;
+  position: relative;
+}
+.fade{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 2.5s;
+  animation-name: fade;
+  animation-duration: 2.5s;
+}
